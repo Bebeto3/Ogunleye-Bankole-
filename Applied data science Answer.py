@@ -10,7 +10,7 @@ import pandas as pd
 import matplotlib.pyplot as plot
 
 
-UK = pd.read_csv('\Users\HP\Downloads\Population/GBR_Data.csv',delim_whitespace=True)
+UK = pd.read_csv('\Users\HP\Downloads\Population\GBR_Data.csv',delim_whitespace=True)
 print(UK)
 header = UK.columns
 print(header)
