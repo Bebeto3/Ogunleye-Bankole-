@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Mar 21 16:18:59 2022
+Created on Mon Mar 19 12:18:59 2022
 
 @author: HP
 """
@@ -10,7 +10,7 @@ import pandas as pd
 import matplotlib.pyplot as plot
 
 
-UK = pd.read_csv('/Users\HP\Downloads\Population/GBR_Data.csv',delim_whitespace=True)
+UK = pd.read_csv('\Users\HP\Downloads\Population/GBR_Data.csv',delim_whitespace=True)
 print(UK)
 header = UK.columns
 print(header)
